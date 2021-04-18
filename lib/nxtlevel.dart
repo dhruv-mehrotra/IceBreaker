@@ -76,8 +76,8 @@ Widget _myParentWidget(BuildContext context) {
                   child: RichText(
                     text: TextSpan(
                       children: <TextSpan>[
-                        TextSpan(text: 'ABOUT ME', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black,fontSize: 20)),
-                        TextSpan(text: "\n\n I'm Mark. I'm here to make friends at IITR. I love talking to make new people. \nI would love to hear your adventurous story", style: TextStyle(fontWeight: FontWeight.normal, color: Colors.black,fontSize: 16),
+                        TextSpan(text: '\tABOUT ME', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black,fontSize: 20)),
+                        TextSpan(text: "\n\n I'm Mark. I'm here to make friends. I love talking to     meet new people.  \nI would love to hear your adventurous story", style: TextStyle(fontWeight: FontWeight.normal, color: Colors.black,fontSize: 16),
                         )
                       ],
                     ),

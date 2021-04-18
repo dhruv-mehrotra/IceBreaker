@@ -49,26 +49,26 @@ Widget _myParentWidget(BuildContext context) {
                   child:RichText(
                     text: TextSpan(
                         children: <TextSpan>[
-                          TextSpan(text: 'Mark Zuckerberg', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue,fontSize: 28)),
+                          TextSpan(text: 'Current Level: 0', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black,fontSize: 20)),
                         ]
                     ),
                   )
               ),
 
               Container(
-                  width: 250.0,
-                  height: 400.0,
+                  width: double.infinity,
+                  height: 300.0,
                   child: new Image.asset("assets/profile_pic_full.png")
               ),
 
               Container(
-                  width: 250.0,
-                  height: 100.0,
+                  width: 300.0,
+                  height: 150.0,
                   child: RichText(
                     text: TextSpan(
                       children: <TextSpan>[
-                        TextSpan(text: 'Mark Zukerberg', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black,fontSize: 18)),
-                        TextSpan(text: "\nDesigner/Developer at MDG IITR", style: TextStyle(fontWeight: FontWeight.normal, color: Colors.black,fontSize: 12)
+                        TextSpan(text: 'Mark Zukerberg', style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black,fontSize: 22)),
+                        TextSpan(text: "\nDesigner/Developer at MDG IITR", style: TextStyle(fontWeight: FontWeight.normal, color: Colors.black,fontSize: 16)
                         )
                       ],
                     ),
